@@ -1,0 +1,324 @@
+﻿@media only screen and (max-width: 991px) {
+	h1 {
+		font-size: 3.8em;
+	}
+
+	.logo_menu_contener {
+		justify-content: space-between;
+		align-items: center;
+		padding-right: 3rem;
+	}
+
+	.img_face {
+		min-height: 20rem;
+		background-position: bottom right;
+	}
+
+	.logo {
+		margin-left: 2rem;
+	}
+
+	.hamburger_buttom {
+		display: block;
+	}
+
+	.menu_contener {
+		display: none;
+	}
+
+
+	.up_butt {
+		display: none;
+	}
+
+	.contener_h1 {
+		padding: 0.5rem;
+		margin: 7.2rem 0;
+	}
+
+	.block_1_contener {
+		padding: 1rem;
+		margin: 3rem 0 3rem 0;
+	}
+
+		.block_1_contener .second_level_heading {
+			font-size: 2em;
+		}
+
+	.me_text {
+		font-size: 0.8em;
+		line-height: 1.2rem;
+	}
+
+	.me_img {
+		margin-left: 1rem;
+	}
+
+	.contenet_h2 {
+		margin-top: 2rem;
+	}
+
+	.block_1 .header_h2 .second_level_heading:before {
+		margin-left: 0.3rem;
+	}
+
+	.services_text {
+		font-size: 1.1em;
+		width: 76%;
+	}
+
+	.number {
+		left: 2rem;
+	}
+
+
+	.comments {
+		grid-template-columns: 29% 74% auto auto;
+	}
+
+	.comments_h3 {
+		font-size: 1.3em;
+		line-height: 1.1rem;
+	}
+
+	.comments_text {
+		font-size: 0.72em;
+	}
+
+	.second_level_heading {
+		font-size: 2em;
+	}
+}
+
+@media sgreen and (max-width:691px) {
+	.contener_h1 {
+		margin: 5rem 0;
+		padding: 0.4rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.hamburger_buttom {
+		width: 15%;
+	}
+
+	.contener_h1 {
+		margin: 6rem 0;
+		padding: 0.8rem;
+	}
+
+	h1 {
+		font-size: 2.7em;
+	}
+
+	.tex-h1 {
+		font-size: 1em;
+	}
+
+	.buttom {
+		font-size: 0.7em;
+		min-height: 2.3rem;
+		line-height: 2.3rem;
+	}
+
+	.img_face {
+		min-height: 18rem;
+	}
+
+	.contenet_h2 {
+		margin-top: 1.6em;
+	}
+
+	.block_1 .header_h2 {
+		width: 100%;
+	}
+
+	.block_1_contener .second_level_heading {
+		font-size: 1.6em;
+	}
+
+	.me_text {
+		font-size: 0.7em;
+		line-height: 1rem;
+	}
+
+	.block_1 .buttom {
+		font-size: 0.6em;
+		line-height: 2rem;
+		display: none;
+	}
+
+	.list_contener .service_contener {
+		width: 40%;
+	}
+
+	.number {
+		left: 1.3rem;
+	}
+
+	.portfolio {
+		width: 40%;
+	}
+
+	.comments_contener {
+		width: 90%;
+	}
+
+	.comments {
+		grid-template-columns: 35% 74% auto auto;
+	}
+
+	.comments_text {
+		font-size: 0.6em;
+		line-height: 1.2rem;
+	}
+
+	.block_6 .list {
+		flex-flow: row wrap;
+	}
+
+	.icon_contener {
+		width: 50%;
+	}
+
+	.second_level_heading {
+		font-size: 1.8em;
+	}
+}
+
+@media screen and (max-widh:691px) {
+	.contener_h1 {
+		margin: 5rem 0;
+		padding: 0.8rem;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.hamburger_buttom {
+		width: 28%;
+	}
+
+	.contener_img_face {
+		display: none;
+	}
+
+	.contener_h1 {
+		width: 100%;
+		margin: 4rem auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.tex-h1 {
+		text-align: center;
+		margin-left: 1rem;
+	}
+
+	.buttom {
+		margin: 1rem 1rem 0 2.9rem;
+	}
+
+	.block_1_contener {
+		column-count: 1;
+	}
+
+	.me_img {
+		display: none;
+	}
+
+	.block_1 .buttom {
+		display: block;
+	}
+
+	.me_text {
+		width: 100%;
+		line-height: 1.1rem;
+	}
+
+	.block_1_contener .second_level_heading {
+		font-size: 1.5em;
+	}
+
+	.list_contener .service_contener {
+		width: 100%;
+	}
+
+	.number {
+		font-size: 0.8em;
+		left: 0.6rem;
+		top: 32%;
+	}
+
+	.wave_bg_stroke {
+		min-height: 17rem;
+	}
+
+	.instrument {
+		min-height: 1.5rem;
+	}
+
+	.portfolio {
+		width: 80%;
+		margin: 0.5rem auto;
+	}
+
+	.block_4 .buttom {
+		width: 19%;
+		font-size: 0.6em;
+	}
+
+	.comments_contener {
+		width: 100%;
+		padding: 1rem;
+	}
+
+	.comments_h3 {
+		padding-left: 0.5rem;
+		font-size: 0.9em;
+	}
+
+	.comments_ceo {
+		padding-left: 0.5rem;
+		font-size: 0.6em;
+	}
+
+	.comments_contener .header_h3 {
+		line-height: normal;
+	}
+
+	.comments_text {
+		line-height: 0.99rem;
+		font-size: 0.5em;
+		padding: 0.5rem;
+	}
+
+	.comments {
+		grid-template-columns: 32% 74% auto auto;
+	}
+
+	.icon_contener {
+		width: 100%;
+	}
+
+	.message_input {
+		width: auto;
+	}
+
+	.text_message {
+		width: 90%;
+	}
+
+	.contener_buttom .buttom {
+		width: 20%;
+	}
+
+	.second_level_heading {
+		font-size: 1.6em;
+	}
+}
