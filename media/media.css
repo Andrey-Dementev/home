@@ -90,10 +90,61 @@
 	}
 }
 
-@media sgreen and (max-width:691px) {
-	.contener_h1 {
-		margin: 5rem 0;
-		padding: 0.4rem;
+@media screen and (max-width: 947px) {
+	h1 {
+		font-size: 3.4em;
+	}
+
+	.list_contener .service_contener {
+		width: 45%;
+	}
+
+	.comments {
+		grid-template-columns: 31% 79% auto auto;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	.hamburger_buttom {
+		width: 15%;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	.me_text {
+		font-size: 0.7em;
+	}
+
+	.block_1 .buttom {
+		display: none;
+	}
+
+	.header_h2 {
+		margin-top: 0;
+	}
+
+	.number {
+		left: 1.6rem;
+		top: 21%;
+	}
+
+	.comments {
+		grid-template-columns: 37% 79% auto auto;
+	}
+
+	.comments_text {
+		font-size: 0.5em;
+		line-height: 1.15rem;
+	}
+
+	.block_6 .list {
+		flex-flow: row wrap;
+	}
+
+	.icon_contener {
+		width: 50%;
 	}
 }
 
@@ -186,7 +237,13 @@
 	}
 }
 
-@media screen and (max-widh:691px) {
+
+
+@media screen and (max-width:691px) {
+	.hamburger_buttom {
+		width: 18%;
+	}
+
 	.contener_h1 {
 		margin: 5rem 0;
 		padding: 0.8rem;
@@ -194,6 +251,35 @@
 
 	h1 {
 		font-size: 2.5em;
+	}
+
+	.block_1_contener .header_h2 {
+		margin-top: 2rem;
+	}
+
+	.tex-h1 {
+		font-size: 0.8em;
+	}
+
+	.buttom.smail {
+		font-size: 0.6em;
+	}
+
+	.me_text {
+		font-size: 0.6em;
+	}
+
+	.number {
+		left: 0.9rem;
+		top: 31.5%;
+	}
+
+	.comments_contener {
+		width: 95%;
+	}
+
+	.comments {
+		grid-template-columns: 40% 80% auto auto;
 	}
 }
 
@@ -320,5 +406,40 @@
 
 	.second_level_heading {
 		font-size: 1.6em;
+	}
+}
+
+@media screen and (max-width: 409px) {
+	.logo {
+		margin-left: 1rem;
+	}
+
+	.hamburger_buttom {
+		width: 32%;
+	}
+
+	.tex-h1 {
+		margin-right: 2rem;
+	}
+
+	.buttom {
+		margin: 1rem 0 0 2rem;
+	}
+
+	.number {
+		left: 0.1rem;
+	}
+
+	.comments_text {
+		font-size: 0.4em;
+		line-height: 0.8rem;
+	}
+
+	.message_input {
+		font-size: 0.67em;
+	}
+
+	.social_text {
+		font-size: 0.7em;
 	}
 }
