@@ -1,4 +1,31 @@
-﻿@media only screen and (max-width: 991px) {
+﻿@media only screen and (max-width: 1080px) {
+	.logo {
+		margin-left: 1.2rem;
+	}
+
+	.contener_h1 {
+		padding: 0.5rem;
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+
+	.contenet_h2 {
+		padding-left: 0.5rem;
+	}
+
+	.me_img {
+		padding-right: 0.5rem;
+		margin-left: 0;
+	}
+
+	.number {
+		left: 3rem;
+	}
+}
+
+@media only screen and (max-width: 991px) {
 	h1 {
 		font-size: 3.8em;
 	}
@@ -90,7 +117,7 @@
 	}
 }
 
-@media screen and (max-width: 947px) {
+@media only screen and (max-width: 947px) {
 	h1 {
 		font-size: 3.4em;
 	}
@@ -102,9 +129,35 @@
 	.comments {
 		grid-template-columns: 31% 79% auto auto;
 	}
+
+	.me_text {
+		font-size: 0.7em;
+	}
+
+	.hamburger_buttom {
+		width: 13%;
+	}
+
+	.number {
+		top: 31%;
+		left: 1.9rem;
+	}
+
+	.comments_text {
+		font-size: 0.70em;
+	}
+
+	.block_6 .list {
+		flex-flow: row wrap;
+	}
+
+	.icon_contener {
+		width: 50%;
+	}
 }
 
-@media screen and (max-width: 810px) {
+
+@media only screen and (max-width: 810px) {
 	.hamburger_buttom {
 		width: 15%;
 	}
@@ -239,7 +292,7 @@
 
 
 
-@media screen and (max-width:691px) {
+@media only screen and (max-width:691px) {
 	.hamburger_buttom {
 		width: 18%;
 	}
@@ -283,7 +336,7 @@
 	}
 }
 
-@media screen and (max-width: 479px) {
+@media only screen and (max-width: 479px) {
 	.hamburger_buttom {
 		width: 28%;
 	}
@@ -409,7 +462,7 @@
 	}
 }
 
-@media screen and (max-width: 409px) {
+@media only screen and (max-width: 409px) {
 	.logo {
 		margin-left: 1rem;
 	}
